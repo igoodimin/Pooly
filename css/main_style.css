@@ -188,6 +188,7 @@ body {
     padding: 100px 0;
     box-sizing: border-box;
     margin-bottom: 75px;
+    overflow: hidden;
 }
 .section2 {
     text-align: center;
@@ -450,6 +451,7 @@ body {
 /* section5 */
 #section5{
     height: 1042px;
+    overflow: hidden;
 }
 .s5_title{
     margin: 150px 0 50px 0;
