@@ -477,6 +477,7 @@ body {
     background: url(../images/footer/background.png) center bottom no-repeat;
     height: 338px;
     padding-top: 170px;
+    margin-top: 160px;
 }
 .footer{
     width: 1200px;
