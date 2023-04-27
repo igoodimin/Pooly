@@ -188,7 +188,7 @@ body {
     padding: 100px 0;
     box-sizing: border-box;
     margin-bottom: 75px;
-    overflow: hidden;
+  
 }
 .section2 {
     text-align: center;
@@ -383,6 +383,7 @@ body {
 #section4_wrap {
     background: url(../images/main/section4_Signiture/section4_bg.png) no-repeat center bottom;
     height: 1095px;
+    overflow: hidden;
 }
 
 .section4 {
