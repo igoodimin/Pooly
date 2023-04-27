@@ -1,0 +1,534 @@
+@charset "UTF-8";
+
+/* 웹폰트 링크연결 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    color: #000;
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 1600px;
+}
+
+/* main banner */
+#banner_wrap {
+    background: url(../images/main/mainbanner/mainbanner.png) no-repeat center;
+    width: 100%;
+    height: 902px;
+}
+
+.default {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.nav_wrap {
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a:hover{
+    font-weight: 900;
+    color: #faf074;
+}
+
+.nav li a {
+    color: #fff;
+    display: block;
+    padding: 10px 60px;
+    font-weight: 800;
+}
+
+.nav li:nth-child(3) a {
+    padding: 0 60px;
+}
+
+.mb {
+    margin-top: 250px;
+    color: #fff;
+    animation: up 1s;
+}
+@keyframes up{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.mb h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mb h2 {
+    font-size: 57px;
+    padding: 40px 0;
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    border: #fff 2px solid;
+}
+
+.button a {
+    padding: 5px 15px;
+    display: inline-block;
+    color: #003864;
+    font-weight: 900;
+}
+.button:hover{
+    border: #fff 2px solid;
+    background-color: rgba(0, 56, 100, 0.1);
+}
+.button:hover a{
+    color: #fff;
+}
+
+/* section1 */
+.section1 {
+    text-align: center;
+    margin-top: 122px;
+    overflow: hidden;
+}
+
+.navy {
+    color: #003864;
+}
+
+.blue {
+    color: #5986c7;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+
+
+.bestseller_txt {
+    padding: 30px 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.button_b {
+    background-color: #5986c7;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 90px;
+    border: #5986c7 2px solid;
+}
+
+.button_b a {
+    padding: 5px 15px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 900;
+}
+.button_b:hover{
+    background-color: #fff;
+    border: #5986c7 2px solid;
+}
+.button_b:hover a{
+    color: #5986c7;
+}
+
+/* section 2 */
+#section2_wrap {
+    background: url(../images/main/section2_NewShop/bg.png) no-repeat center;
+    height: 735px;
+    padding: 100px 0;
+    box-sizing: border-box;
+    margin-bottom: 75px;
+}
+.section2 {
+    text-align: center;
+}
+
+/* Section2_NewShop Css */
+.s2_title{
+    margin-bottom: 40px;
+}
+/*contents*/
+.sub_pink {
+    font-weight: bold;
+    color: #f0618e;
+    margin-top: 5px;
+}
+
+.sub_pink2 {
+    font-weight: bold;
+    color: #f0618e;
+    font-size: 12px;
+}
+
+.sub_bold {
+    font-weight: bold;
+}
+
+.small {
+    padding-top: 10px;
+    font-size: 10px;
+    color: #666;
+    font-weight: normal;
+}
+
+#contents {
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    line-height: 15px;
+}
+
+.ht {
+    margin-top: 100px;
+}
+
+.photo2 {
+    margin-top: -50px;
+}
+
+/*contents1*/
+#contents1 ul {
+    float: left;
+}
+
+#contents1 ul li {}
+
+#contents1 ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+#contents1 ul li:nth-child(5) {
+    margin-right: 0;
+}
+
+#contents1 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contents1 ul li a {
+    display: block;
+    margin: 5px;
+}
+
+.screen {
+    position: relative;
+    overflow: hidden;
+}
+
+.screen img {
+    width: 100%;
+    display: block;
+}
+
+.bottom {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: -50%;
+    left: 0;
+    z-index: 2;
+    color: #5986c7;
+    line-height: 20px;
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 20px 20px;
+}
+
+
+.swiper-slide-active+.swiper-slide+.swiper-slide .bottom {
+    bottom: 0%;
+}
+
+.swiper-slide {
+    transform: scale(0.75);
+}
+
+.swiper-slide-active+.swiper-slide+.swiper-slide {
+    transform: scale(1);
+}
+
+.swiper-slide-duplicate-prev {
+    transform: scale(0.75);
+}
+
+.swiper-button-prev {
+    left: 100px;
+}
+
+.swiper-button-next {
+    left: 200px;
+}
+
+.swiper-button-prev {
+    content: url(../images/left.png);
+    width: 50px;
+    height: 42px;
+}
+
+.swiper-button-next {
+    content: url(../images/right.png);
+    width: 50px;
+    height: 42px;
+}
+
+/* section3 */
+.section3 {
+    text-align: center;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width: 60%;
+    position: relative;
+}
+
+.button_w {
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    z-index: 3;
+}
+
+.button_w a {
+    color: #003864;
+    background-color: #fff;
+    border: #fff solid 2px;
+    padding: 13px 20px;
+    border-radius: 30px;
+    font-weight: 900;
+}
+.button_w:hover a{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: #fff solid 2px;
+}
+
+/* section4 */
+#section4_wrap {
+    background: url(../images/main/section4_Signiture/section4_bg.png) no-repeat center bottom;
+    height: 1095px;
+}
+
+.section4 {
+    text-align: center;
+    position: relative;
+}
+
+.bubble_l {
+    position: absolute;
+    top: 127px;
+    left: 0;
+    z-index: 3;
+}
+
+.bubble_r {
+    position: absolute;
+    top: 127px;
+    right: 0;
+    z-index: 3;
+}
+
+.Signiture {
+    margin-top: 173px;
+    display: inline-block;
+}
+
+.Signiture li {
+    float: left;
+    position: relative;
+}
+
+.Signiture li a {
+    display: block;
+    padding: 10px;
+}
+
+.Signiture_txt_l {
+    position: absolute;
+    bottom: 50px;
+    left: 142px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.Signiture_txt_r {
+    position: absolute;
+    bottom: 50px;
+    left: 126px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.s4_subtitle{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.s4_title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+/* section5 */
+#section5{
+    height: 1042px;
+}
+.s5_title{
+    margin: 150px 0 50px 0;
+    text-align: center;
+}
+.slider_wrap{
+    overflow: hidden;
+    position: relative;
+    height: 1000px;
+  }
+.slider_w {
+    width: 1920px;
+    height: 380px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -960px;
+}
+
+/* footer */
+#footer_wrap{
+    background: url(../images/footer/background.png) center bottom no-repeat;
+    height: 338px;
+    padding-top: 170px;
+}
+.footer{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.f_left{
+    float: left;
+}
+.f_left h2{
+    display: inline-block;
+    float: left;
+    margin-right: 100px;
+}
+.f_txt{
+    float: right;
+}
+.f_txt p{
+    float: left;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 18px;
+}
+
+.foot_link li{
+    float: left;
+}
+.foot_link li a:nth-child(1){
+    padding-left: 0;
+}
+.foot_link li a{
+    display: block;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.f_right{
+    float: right;
+}
+.f_right p{
+    color: #fff;
+    font-size: 10px;
+    float: right;
+}
+.foot_sns li{
+    float: left;
+}
+.foot_sns li a{
+    display: block;
+    padding: 5px;
+}
+.foot_sns li a:nth-child(3){
+    padding-right: 0;
+}

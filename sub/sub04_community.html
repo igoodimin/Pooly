@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="1400">
+    <title>Pooly</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/sub4_community.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--AOS js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- TAB fs -->
+    <script src="../js/jquery-1.12.3.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <div id="banner_wrap">
+        <div class="banner default">
+            <div class="nav_wrap">
+                <ul class="nav">
+                    <li><a href="../sub/sub1_brand.html">Brand</a></li>
+                    <li><a href="../sub/sub02_shop.html">Shop</a></li>
+                    <li><a href="../index.html"><img src="../images/header/logo.png" alt="logo"></a></li>
+                    <li><a href="../sub/sub03_event.html">Event</a></li>
+                    <li><a href="../sub/sub04_community.html">Community</a></li>
+                </ul>
+            </div>
+            <div class="mb">
+                <h3>OUR COMPANY</h3>
+                <h2>CONTACT US</h2>
+                <p>
+                    브랜드 관련 각종 정보가 지원되는 페이지입니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- tab -->
+    <div id="section">
+        <ul id="box1">
+            <li class="tap tablink opacity" onclick="openBoard(event,'Board01')">찾아 오시는 길</li>
+            <li class="tap tablink" onclick="openBoard(event,'Board02')">안내사항</li>
+            <li class="tap tablink" onclick="openBoard(event,'Board03')">회사정보</li>
+        </ul>
+        <div id="Board01" class="box1_1	board">
+            <div class="map_title" data-aos="fade-down" data-aos-duration="500">
+                <img src="../images/sub04/content/map.png" alt="title">
+            </div>
+            <div class="map_l" data-aos="fade-down" data-aos-duration="900">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.9976838145367!2d126.95202987647535!3d37.48438102883387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca0282f905345%3A0x31feaf6bceb73cc!2z7ISc7Jq47Yq567OE7IucIOq0gOyVheq1rCDqtIDslYXroZwgMjE3!5e0!3m2!1sko!2skr!4v1682411768723!5m2!1sko!2skr"
+                    width="820" height="420" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map_r" data-aos="fade-down" data-aos-duration="1200">
+                <h3>지하철</h3>
+                <p>
+                    지하철 2호선 서울대입구역(관악구청) 6번출구에서
+                    파리바게트 방면으로 6분가량 342m 도보 후
+                    삼성디지털프라자 건물 3층
+                </p>
+            </div>
+        </div>
+        <div id="Board02" class="box1_1	board" style="display:none;">
+
+            <img src="../images/sub04/content/title.png" alt="title">
+
+            <div class="notice">
+                <div class="notice_title">
+                    <img src="../images/sub04/content/notice.png" alt="notice">
+                </div>
+                <ul class="notice_content">
+                    <li>
+                        <a href="#">
+                            <p class="circle pink">01</p>
+                            <p class="txt">배송, 교환, 반품 안내</p>
+                            <p class="date">2023. 01. 27.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="circle pink">02</p>
+                            <p class="txt">온라인 스토어 런칭 프로모션(완료)</p>
+                            <p class="date">2023. 01. 27.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="circle pink">03</p>
+                            <p class="txt">추석 연휴 배송 및 고객센터 운영 안내 (완료)</p>
+                            <p class="date">2022. 09. 20.</p>
+                        </a>
+                    </li>
+                </ul>
+                <p class="button_p"><a href="#">더 알아보기</a></p>
+            </div>
+            <div class="fqa">
+                <div class="notice_title">
+                    <img src="../images/sub04/content/FQA.png" alt="FQA">
+                </div>
+                <ul class="notice_content">
+                    <li>
+                        <a href="#">
+                            <p class="circle blue">01</p>
+                            <p class="txt">풀리 멤버 가입은 어떻게 하나요?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="circle blue">02</p>
+                            <p class="txt">주문한 상품을 취소하려면 어떻게 해야 하나요?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="circle blue">03</p>
+                            <p class="txt">반품신청 후 수거는 어떻게 진행되나요?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="circle blue">04</p>
+                            <p class="txt">비회원 주문배송내역도 사이트에서 확인 할 수 있나요?</p>
+                        </a>
+                    </li>
+                </ul>
+                <p class="button_b"><a href="#">더 알아보기</a></p>
+            </div>
+        </div>
+        <div id="Board03" class="box1_1	board" style="display:none;">
+            <ul class="company">
+                <li>
+                    <h3><img src="../images/sub04/content/COMPANY.png" alt=""></h3>
+                    <p>주식회사 풀리</p>
+                </li>
+                <li>
+                    <h3><img src="../images/sub04/content/OWNER.png" alt=""></h3>
+                    <p>우지민</p>
+                </li>
+                <li>
+                    <h3><img src="../images/sub04/content/TEL..png" alt=""></h3>
+                    <p>02)987-6543</p>
+                </li>
+                <li>
+                    <h3><img src="../images/sub04/content/E-MAIL.png" alt=""></h3>
+                    <p>Pooly@naver.com</p>
+                </li>
+                <li>
+                    <h3><img src="../images/sub04/content/ADRESS.png" alt=""></h3>
+                    <p>
+                        서울 관악구 관악로
+                        <br> 217 3층 풀리
+                    </p>
+                </li>
+                <li>
+                    <h3><img src="../images/sub04/content/SNS.png" alt=""></h3>
+                    <p>
+                        @Pooly
+                        <br>in Instagram, tiwitter
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer_wrap">
+        <div class="footer">
+            <div class="f_left">
+                <h2><a href="#"><img src="../images/footer/footer_logo.png" alt="footer_logo"></a></h2>
+                <div class="f_txt">
+                    <ul class="foot_link">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">멤버쉽 혜택</a></li>
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                    <p>
+                        풀리 온라인 스토어 | 대표: 우지민 | 주소: 부산광역시 금정구 수림로 53번길 풀스포츠 컴퍼니
+                        <br> 통신판매업 신고번호: 제 2023-부산금정-1111호 | 사업자 등록번호:806-12-12345
+                        <br> 고객센터 전화문의:1588-0000
+                    </p>
+                </div>
+            </div>
+            <div class="f_right">
+
+                <ul class="foot_sns">
+                    <li><a href="#"><img src="../images/footer/icon_emblem.png" alt="icon_emblem"></a></li>
+                    <li><a href="#"><img src="../images/footer/icon_twitter.png" alt="icon_twitter"></a></li>
+                    <li><a href="#"><img src="../images/footer/icon_instagram.png" alt="icon_instagram"></a></li>
+                </ul>
+                <p>
+                    ⓒ 2023 POOLY All Rights Reserved
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
