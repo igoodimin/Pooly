@@ -28,7 +28,7 @@ body {
     font-family: 'Pretendard-Regular';
     font-size: 16px;
     line-height: 26px;
-    min-width: 1500px;
+    min-width: 1600px;
 }
 
 /* main banner */
@@ -169,7 +169,6 @@ body {
     background: url(../images/sub03/section1/bg.png) no-repeat center bottom;
     padding: 250px 0 100px 0;
     height: 637px;
-    overflow: hidden;
 }
 
 .section1 {
@@ -532,6 +531,7 @@ body {
     margin-top: 160px;
     height: 800px;
     margin-bottom: 160px;
+    overflow: hidden;
 }
 .poolyday_t{
     height: 411px;
@@ -653,7 +653,6 @@ body {
     float: left;
 }
 .f_left h2{
-    display: inline-block;
     float: left;
     margin-right: 100px;
 }
