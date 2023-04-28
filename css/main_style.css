@@ -188,7 +188,6 @@ body {
     padding: 100px 0;
     box-sizing: border-box;
     margin-bottom: 75px;
-  
 }
 .section2 {
     text-align: center;
@@ -241,8 +240,6 @@ body {
 #contents1 ul {
     float: left;
 }
-
-#contents1 ul li {}
 
 #contents1 ul li:nth-child(1) {
     margin-left: 0;
@@ -474,10 +471,10 @@ body {
 
 /* footer */
 #footer_wrap{
+    margin-top: 160px;
     background: url(../images/footer/background.png) center bottom no-repeat;
     height: 338px;
     padding-top: 170px;
-    margin-top: 160px;
 }
 .footer{
     width: 1200px;
@@ -489,7 +486,6 @@ body {
     float: left;
 }
 .f_left h2{
-    display: inline-block;
     float: left;
     margin-right: 100px;
 }
