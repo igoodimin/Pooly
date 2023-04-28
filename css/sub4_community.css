@@ -28,7 +28,7 @@ body {
     font-family: 'Pretendard-Regular';
     font-size: 16px;
     line-height: 26px;
-    min-width: 1500px;
+    min-width: 1600px;
 }
 
 /* main banner */
@@ -159,7 +159,6 @@ body {
 }
 
 #box1>li {
-	float: left;
 	display: inline-block;
 	font-size: 18px;
 	text-align: center;
@@ -430,7 +429,6 @@ body {
     float: left;
 }
 .f_left h2{
-    display: inline-block;
     float: left;
     margin-right: 100px;
 }
