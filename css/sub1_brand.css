@@ -475,7 +475,6 @@ body {
     float: left;
 }
 .f_left h2{
-    display: inline-block;
     float: left;
     margin-right: 100px;
 }
