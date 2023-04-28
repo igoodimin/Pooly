@@ -169,6 +169,7 @@ body {
     background: url(../images/sub03/section1/bg.png) no-repeat center bottom;
     padding: 250px 0 100px 0;
     height: 637px;
+    overflow: hidden;
 }
 
 .section1 {
