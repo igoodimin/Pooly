@@ -28,7 +28,7 @@ body {
     font-family: 'Pretendard-Regular';
     font-size: 16px;
     line-height: 26px;
-    min-width: 1500px;
+    min-width: 1600px;
 }
 
 /* main banner */
@@ -353,7 +353,7 @@ body {
     background: url(../images/sub02/Section2_Signiture/banner.png) no-repeat center;
     height: 376px;
     width: 100%;
-    margin: 100px 0;
+    margin-top: 100px;
     padding: 127.5px 0;
     box-sizing: border-box;
 }
@@ -363,11 +363,12 @@ body {
 }
 
 /* section2 Gradient*/
-.gradient {
+#gradient {
     overflow: hidden;
+    padding-top: 100px;
 }
 
-.gradient h2 {
+#gradient h2 {
     text-align: center;
     margin-bottom: 100px;
 }
@@ -558,11 +559,11 @@ body {
 }
 
 /* section2 Dot */
-.dot {
+#dot {
     overflow: hidden;
 }
 
-.dot h2 {
+#dot h2 {
     text-align: center;
     margin: 100px 0;
 }
@@ -650,7 +651,6 @@ body {
     float: left;
 }
 .f_left h2{
-    display: inline-block;
     float: left;
     margin-right: 100px;
 }
