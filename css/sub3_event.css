@@ -167,7 +167,7 @@ body {
 /* section1 */
 #section1_wrap {
     background: url(../images/sub03/section1/bg.png) no-repeat center bottom;
-    margin: 250px 0 100px 0;
+    padding: 250px 0 100px 0;
     height: 637px;
     overflow: hidden;
 }
