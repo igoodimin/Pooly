@@ -41,7 +41,8 @@ body {
     width: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    margin-left: -960px;
     z-index: -1;
 }
 
